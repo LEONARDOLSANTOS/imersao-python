@@ -18,5 +18,5 @@ while True:
    elif resposta_usuario == 'SAIR':
       break
    else:
-      print("nao aceito")
+      print("Entrada inválida!")
 
