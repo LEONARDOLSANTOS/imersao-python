@@ -13,6 +13,6 @@ while True:
    if numero_dia_da_semana == 0:
       break
    elif numero_dia_da_semana < 1 or numero_dia_da_semana > 7:
-      print("Número correspondente ao dia da semana deve ser valor entre 1 e 7!")
+      print("Valor Inválido. Número correspondente ao dia da semana deve ser valor entre 1 e 7!")
       continue
    print(f'Dia da semana: {dia_da_semana[numero_dia_da_semana - 1]}')
