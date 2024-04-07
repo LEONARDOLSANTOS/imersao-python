@@ -32,4 +32,4 @@ while True:
       salario_atual = salario_atual + (salario_atual * 0.15)
    elif codigo_cargo == 5:
       salario_atual = salario_atual + (salario_atual * 0)
-   print(f'O novo salário é de R${salario_atual:.2f}.')
+   print(f'Salário atualizado: R${salario_atual}')
