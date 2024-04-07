@@ -18,9 +18,6 @@ while True:
    numero_infracao = int(input('ou "-1" para encerrar: '))
    if numero_infracao == -1:
       break
-   elif type(numero_infracao)!= int:
-      print("Número de infrações que cometeu no último ano deve ser um valor inteiro!")
-      continue
 
    if numero_infracao == 0:
       print('Categoria: Motorista Exemplar')
@@ -30,4 +27,5 @@ while True:
       print('Categoria: Motorista Desatento')
    elif numero_infracao > 6:
       print('Categoria: Motorista Perigoso')
+
   
