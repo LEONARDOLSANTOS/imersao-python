@@ -15,7 +15,12 @@
 numero_infracao = 0
 while True:
    print('Entre com número de infrações que cometeu no último ano')
-   numero_infracao = int(input('ou "-1" para encerrar: '))
+   try:
+      numero_infracao = int(input('ou "-1" para encerrar: '))
+   except ValueError:
+      print('Valor Inválido. Número de infrações deve ser um número inteiro!')
+      continue
+   
    if numero_infracao == -1:
       break
 
