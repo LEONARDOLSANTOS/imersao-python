@@ -3,5 +3,7 @@
 ## Imersão em Python
 ### Professora: Joyce Teixeira
 
-[LISTA 01](Dados 2024.1 - Lista de Exercício 03 - Instruções de Decisão.pdf)
+[LISTA 01](https://github.com/LEONARDOLSANTOS/imersao-python/blob/main/Dados%202024.1%20-%20Lista%20de%20Exercício%2003%20-%20Instruções%20de%20Decisão.pdf)
+
+
 
