@@ -18,9 +18,9 @@ else:
     print('E-mail inválido! - usando expresao regular completa')
 
 if '@' in email:
-    print('E-mail válido! - usando @')
+    print('E-mail válido! - usando operador in')
 else:
-    print('E-mail inválido! - usando @')
+    print('E-mail inválido! - usando operador in')
 
 
 
